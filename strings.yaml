@@ -1,0 +1,27 @@
+branding:
+  name: About Library 
+  org: Launch
+  orgDomain: launchxd.com
+  prettyName: About Library
+  favicon: /assets/images/library.ico
+
+landing:
+  tagline: A simple documentation site, built from content in Google Docs.
+  viewAll: View All Docs
+  quickLink: <a href="/get-started">Get started</a>.
+
+footer:
+  helpText: For help contributing or to report a problem, consult <a href="https://github.com/nytimes/library">the Library GitHub repository</a>.
+  defaultEmail: dev@launchxd.com
+
+search:
+  placeholder: What do you want to know today?
+#  results:
+#    none:
+#      suggestion: To request a new page, submit <a href="https://github.com/nytimes/library">a PR on GitHub</a>.
+
+# errors
+error:
+  403:
+    message: "<p>For this documentation site, we've disabled the final step of the Move File workflow. Normally, this request would succeed and you'd be taken to the new url for your page.</p>"
+
