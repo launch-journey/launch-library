@@ -6,6 +6,10 @@ $largedesktop-width: 1600px;
 
 @media (min-width: $largedesktop-width) {
   .g-body {
+    max-width: $largedesktop-width;
+  }
+
+  .g-body .g-main-content {
     max-width: 1380px;
   }
 
@@ -16,8 +20,13 @@ $largedesktop-width: 1600px;
 
 
 @media (min-width: $desktop-width) and (max-width: $largedesktop-width - 1) {
+
   .g-body {
-    max-width: 800px;
+    max-width: 1380px;
+  }
+
+  .g-body .g-main-content {
+    max-width: 1160px;
   }
 
   .g-body .g-left-panel {
@@ -35,6 +44,10 @@ $largedesktop-width: 1600px;
   .g-body {
     max-width: 960px;
   }
+
+  .g-body .g-main-content {
+    max-width: 960px;
+  }
 }
 
 @media (min-width: $tablet-width) and (max-width: $smalldesktop-width - 1) {
@@ -43,6 +56,10 @@ $largedesktop-width: 1600px;
   }
 
   .g-body {
+    max-width: 960px;
+  }
+
+  .g-body .g-main-content {
     max-width: 960px;
   }
 }
@@ -54,6 +71,10 @@ $largedesktop-width: 1600px;
   }
 
   .g-body {
+    max-width: 100%;
+  }
+
+  .g-body .g-main-content {
     max-width: 100%;
   }
 }
