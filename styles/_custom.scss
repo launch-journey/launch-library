@@ -1,3 +1,59 @@
-.g-body .g-main-content {
-  max-width: 960px;
+$tablet-width: 768px;
+$smalldesktop-width: 960px;
+$desktop-width: 1024px;
+$largedesktop-width: 1600px;
+
+
+@media (min-width: $largedesktop-width) {
+  .g-body {
+    max-width: 1380px;
+  }
+
+  .g-body .g-left-panel {
+    width: 220px;
+  }
+}
+
+
+@media (min-width: $desktop-width) and (max-width: $largedesktop-width - 1) {
+  .g-body {
+    max-width: 800px;
+  }
+
+  .g-body .g-left-panel {
+    width: 220px;
+  }
+}
+
+
+
+@media (min-width: $smalldesktop-width) and (max-width: $desktop-width - 1) {
+  .g-body .g-left-panel {
+    display: none;
+  }
+
+  .g-body {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: $tablet-width) and (min-width: $smalldesktop-width - 1) {
+  .g-body .g-left-panel {
+    display: none;
+  }
+
+  .g-body {
+    max-width: 960px;
+  }
+}
+
+
+@media (max-width: $tablet-width) {
+  .g-body .g-left-panel {
+    display: none;
+  }
+
+  .g-body {
+    max-width: 100%;
+  }
 }
