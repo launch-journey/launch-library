@@ -37,7 +37,7 @@ $largedesktop-width: 1600px;
   }
 }
 
-@media (min-width: $tablet-width) and (min-width: $smalldesktop-width - 1) {
+@media (min-width: $tablet-width) and (max-width: $smalldesktop-width - 1) {
   .g-body .g-left-panel {
     display: none;
   }
