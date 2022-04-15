@@ -1,6 +1,6 @@
 $tablet-width: 768px;
 $smalldesktop-width: 960px;
-$desktop-width: 1024px;
+$desktop-width: 1200px;
 $mediumdesktop-width: 1440px;
 $largedesktop-width: 1600px;
 
@@ -44,6 +44,8 @@ $largedesktop-width: 1600px;
 
   .g-body .g-main-content {
     max-width: 850px;
+    margin-left: 270px;
+    margin-right: auto;
   }
 
   .g-body .g-left-panel {
