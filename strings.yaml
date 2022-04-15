@@ -6,9 +6,9 @@ branding:
   favicon: /assets/images/library.ico
 
 landing:
-  tagline: A simple documentation site, built from content in Google Docs.
+  tagline: Internal documentation site, powered by Google Docs.
   viewAll: View All Docs
-  quickLink: <a href="/get-started">Get started</a>.
+  quickLink: <a href="/how-to-use-library">How to use Library</a>.
 
 footer:
   helpText: For help contributing or to report a problem, consult <a href="https://github.com/nytimes/library">the Library GitHub repository</a>.
